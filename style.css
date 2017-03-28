@@ -1,0 +1,32 @@
+@font-face {
+  src: url('fonts/oswald/Oswald-Regular.ttf');
+  font-family: Oswald;
+}
+body {
+  background: #c0392b;
+  color: white;
+  font-family: Oswald;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+h2 {
+  font-size: 5em;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1.15em;
+  margin-bottom: 45px;
+}
+#ol {
+  text-align: center;
+  width: 250px;
+  font-size: 1.5em;
+  margin: auto;
+}
+li::before {
+  content: "";
+  width: 20px;
+  display: inline-block;
+}
